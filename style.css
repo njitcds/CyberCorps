@@ -1,0 +1,239 @@
+:root {
+    --njit-logo-height: 12vw;
+    --njit-logo-left-margin: 1rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+    background-color: #E6F7FF;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    margin: 0.2em;
+    width: 100%;
+}
+
+.width-trim {
+    width: 70rem;
+    max-width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+
+header {
+    padding: 10px 0;
+    background-color: #d22630;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-sizing: border-box;
+    h1 {
+        color: white;
+        font-size: 2.2rem;
+        margin-left: 1.5rem;
+    }
+
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo{
+    width: 14%;
+}
+
+
+.njit-header {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+.link-button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: auto;
+    gap: 0.5rem;
+}
+
+.link-button {
+    background-color: #d22630;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;  
+    height: max-content;
+    cursor: pointer;
+    align-self: center;
+    margin-left: auto;  
+    width: max-content;
+}
+
+.link-button:hover {
+    background-color: white;
+    color: #d22630;
+}
+.link-button:active {
+    transform: scale(0.95);
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    height: 25%;
+    padding: 20px;
+    margin-top: 14.5rem;
+
+    .link-button{
+        font-size: 1.5rem;
+        border-radius: 10px;
+        padding: 10px 20px;
+        font-weight: bold;
+    }
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    padding: 20px;
+    background-color: #d22630;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70rem;
+    max-width: 90vw;
+    padding-top: 10px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.logo-and-info {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left img {
+    width: 20%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.footer-info {
+    display: block;
+}
+
+.footer-info p {
+    color: white;
+    font-size: 1rem;
+    margin: 3px 0;
+}
+
+.social-media {
+    display: flex;
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: block;
+    margin-right: 10px;
+}
+
+.social-media img {
+    width: 32px;
+    height: auto;
+}
+
+.footer-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right-text {
+    color: white;
+    font-size: 1rem;
+    text-align: right;
+    margin-block: auto;
+}
+
+@media (max-width: 650px) {
+    header {
+        flex-direction: column; /* Stacks header content vertically */
+        align-items: center;
+    }
+    header h1 {
+        margin-bottom: 0.5rem;
+        margin-right: 1rem;
+        margin-left: 0;
+        font-size: 2rem; /* Adds space between header elements */
+    }
+    .link-button-container {
+        width: 100%; /* Takes full width */
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem; /* Adds space from the header content */
+    }
+    .link-button {
+        font-size: 1.2rem !important; 
+        padding: 0.5rem 1rem; /* Adjust padding */
+        width: auto; /* Allows button to adjust to content */
+    }
+    .container{
+        max-width: 85%;
+        margin-top: 8.5rem;
+    }
+    h1 {
+        font-size: 1.5rem; /* Adjusted for better mobile visibility */
+    }
+    .logo {
+        display: none; /* Adjusted for better visibility */
+    }
+    .footer-content {
+        flex-direction: column; /* Stacks content vertically */
+        align-items: center;
+    }
+    .footer-right {
+        margin-top: 15px; /* Space between footer sections */
+        text-align: center;
+    }
+    .footer-left img {
+        width: 30%; /* Adjusted for mobile */
+    }
+}

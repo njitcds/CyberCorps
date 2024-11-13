@@ -4,47 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="DubMaster icon" type="image/x-icon" href="./logo.png" />
+    <link rel="stylesheet" href="style.css" />
     <title>CyberCorps Resume NJIT</title>
-    <style>
-        body {
-            background-color: #E6F7FF; /* Set your desired background color */
-            font-family: Arial, sans-serif;
-            text-align: center;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: rgba(255, 255, 255, 0.8);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            max-width: 400px;
-            padding: 20px;
-        }
-        h1 {
-            color: #333;
-        }
-        .download-button {
-            display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-        .download-button:hover {
-            background-color: #0056b3;
-        }
-    </style>
 </head>
 <body>
+    <header>
+        <div class="width-trim flex-row">
+            <div class="njit-header">
+                <img class="logo" src="assets/njit_logo.png" alt="NJIT_logo" />
+                <h1> NJIT Career Development Services </h1>
+            </div>
+            <div class="link-button-container">
+                <a class="link-button" href="https://www.njit.edu/careerservices/" target="_blank">Go to NJIT CDS</a>
+            </div>
+        </div>
+    </header>
     <div class="container">
-        <h1>Click below to download NJIT SFS Cybercorps resumes:</h1>
-        <a class="download-button" href="resume.pdf" download>Download PDF</a>
+        <h1 style="margin-bottom: 2rem;">Click below to download NJIT SFS Cybercorps resumes:</h1>
+        <a class="link-button" href="resume.pdf" download>Download PDF</a>
     </div>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <div class="logo-and-info">
+                    <img class="footer-logo" src="assets/njit_logo.png" alt="NJIT Logo">
+                    <div class="footer-info">
+                        <p>Career Development Services, Fenster Hall, Room 400</p>
+                        <p>University Heights, Newark, New Jersey, 07102 USA</p>
+                        <p>Phone: (973) 596-3100</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <p class="footer-right-text">Follow US: @NJITCDS</p>
+                <div class="social-media">
+                    <a href="https://x.com/njitcds"><img src="assets/X.svg" alt="Twitter"></a>
+                    <a href="https://www.facebook.com/NJITCDS/"><img src="assets/fb.svg" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/njitcds/"><img src="assets/insta.svg" alt="Instagram"></a>
+                    <a href="https://www.linkedin.com/company/njitcds"><img src="assets/linkedin.svg"
+                            alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
 </body>
 </html>
