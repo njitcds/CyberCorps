@@ -44,6 +44,7 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+    flex-wrap: wrap;
     box-sizing: border-box;
     h1 {
         color: white;
@@ -58,7 +59,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .logo{
@@ -110,7 +111,8 @@ header {
     max-width: 500px;
     height: 25%;
     padding: 20px;
-    margin-top: 14.5rem;
+    margin-top: 14.25rem;
+    margin-bottom: 7.25rem;
 
     .link-button{
         font-size: 1.5rem;
@@ -195,7 +197,7 @@ footer {
 
 @media (max-width: 650px) {
     header {
-        flex-direction: column; /* Stacks header content vertically */
+        flex-direction: row;
         align-items: center;
     }
     header h1 {
@@ -205,10 +207,12 @@ footer {
         font-size: 2rem; /* Adds space between header elements */
     }
     .link-button-container {
-        width: 100%; /* Takes full width */
         display: flex;
         justify-content: center;
+        align-items: center;
         margin-top: 0.5rem; /* Adds space from the header content */
+        margin-left: 4rem;
+        margin-right: 4rem;
     }
     .link-button {
         font-size: 1.2rem !important; 
@@ -218,6 +222,7 @@ footer {
     .container{
         max-width: 85%;
         margin-top: 8.5rem;
+        margin-bottom: 4.25rem;
     }
     h1 {
         font-size: 1.5rem; /* Adjusted for better mobile visibility */
