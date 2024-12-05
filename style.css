@@ -133,10 +133,9 @@ footer {
 
 .footer-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-start;
     width: 100%;
-    padding-top: 10px;
 }
 
 .footer-left {
