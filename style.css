@@ -108,20 +108,32 @@ header {
 }
 
 .container {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 500px;
     height: 25%;
-    padding: 20px;
+    padding: 15px 20px 30px 20px;
     margin-top: auto;
     margin-bottom: auto;
 
     .link-button{
+        border: 3px solid #d22630;
         font-size: 1.5rem;
         border-radius: 10px;
         padding: 10px 20px;
         font-weight: bold;
+        background-color: white;
+        color: #d22630;
+    }
+
+    .link-button:hover {
+    background-color: #d22630;
+    color: white;
     }
 }
 
