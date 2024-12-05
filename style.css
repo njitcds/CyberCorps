@@ -168,6 +168,7 @@ footer {
 .social-media {
     display: flex;
     margin-top: 10px;
+    gap: 5px;
 }
 
 .social-media a {
@@ -190,7 +191,7 @@ footer {
     color: white;
     font-size: 1rem;
     text-align: right;
-    margin-block: auto;
+    margin-right: auto;
 }
 
 @media (max-width: 650px) {
