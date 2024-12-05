@@ -28,7 +28,9 @@ h1 {
 }
 
 .width-trim {
-    width: 90%;
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
