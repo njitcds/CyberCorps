@@ -28,8 +28,7 @@ h1 {
 }
 
 .width-trim {
-    width: 70rem;
-    max-width: 95vw;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,9 +41,9 @@ header {
     padding: 10px 0;
     background-color: #d22630;
     display: flex;
-    justify-content: center;
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-evenly;
     box-sizing: border-box;
     h1 {
         color: white;
