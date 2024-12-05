@@ -46,6 +46,7 @@ header {
     width: 100%;
     flex-wrap: wrap;
     box-sizing: border-box;
+    margin-bottom: auto;
     h1 {
         color: white;
         font-size: 2.2rem;
@@ -111,8 +112,8 @@ header {
     max-width: 500px;
     height: 25%;
     padding: 20px;
-    margin-top: 14.25rem;
-    margin-bottom: 7.25rem;
+    margin-top: auto;
+    margin-bottom: auto;
 
     .link-button{
         font-size: 1.5rem;
