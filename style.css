@@ -135,8 +135,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    width: 70rem;
-    max-width: 90vw;
+    width: 100%;
     padding-top: 10px;
 }
 
@@ -149,12 +148,12 @@ footer {
 .logo-and-info {
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 
 .footer-left img {
     width: 20%;
     height: auto;
-    margin-right: 20px;
 }
 
 .footer-info {
@@ -185,6 +184,7 @@ footer {
 .footer-right {
     display: flex;
     flex-direction: column;
+    margin-right: 2rem;
 }
 
 .footer-right-text {
